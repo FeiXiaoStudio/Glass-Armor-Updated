@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "glass_armor",
+	"version": "${version}",
+	"name": "Glass Armor",
+	"description": "Fall in love with your skin again!",
+	"authors": [
+		"GayCookie",
+		"FeiXiaoStudio"
+	],
+	"contact": {
+		"homepage": "https://github.com/FeiXiaoStudio",
+		"sources": "https://github.com/FeiXiaoStudio/Glass-Armor-Updated"
+	},
+	"license": "MIT",
+	"icon": "assets/glass_armor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"feixiaostudio.glassarmor.GlassArmor"
+		],
+		"client": [
+			"feixiaostudio.glassarmor.client.GlassArmorClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

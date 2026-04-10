@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 600,
+    "experience": 0.1,
+    "group": "glass_armor",
+    "ingredient": {
+        "item": "minecraft:glass"
+    },
+    "result": {
+        "id": "glass_armor:glass_ingot"
+    }
+}
